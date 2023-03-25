@@ -4,4 +4,19 @@ function addbox() {
 
 
 }
-addbox()
+addbox();
+// function on button reset 
+function check() {
+    let vai = document.getElementById("reset");
+    if (vai !== "") {
+        confirm("Do you want reset form");
+        return false;
+
+    }
+    else {
+        return true;
+    }
+
+
+
+}
