@@ -35,11 +35,17 @@ input {
   font-size: 15px;
 
 }
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
 .form  {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
 }
