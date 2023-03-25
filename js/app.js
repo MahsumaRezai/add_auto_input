@@ -16,7 +16,4 @@ function check() {
     else {
         return true;
     }
-
-
-
 }
